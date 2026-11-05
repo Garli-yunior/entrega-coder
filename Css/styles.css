@@ -1,0 +1,67 @@
+/* Texto */
+.pagina {
+  background-color: #468966;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.titulo-principal,
+.subtitulo {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  color: #FFF0A5;
+}
+
+.titulo-principal {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.subtitulo {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.texto {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Enlaces */
+.enlace {
+  color: #FFB03B;
+}
+
+/* Imágenes */
+.imagen {
+  max-width: 100%;
+  height: auto;
+}
+
+.imagen-logo {
+  width: 180px;
+}
+
+.imagen-contenido {
+  display: block;
+  max-height: 60vh;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.imagen-social {
+  width: 32px;
+}
+
+/* Navegación */
+nav ul {
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  gap: 1rem;
+}

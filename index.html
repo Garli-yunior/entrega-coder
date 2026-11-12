@@ -4,71 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | Hotel Wololo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Css/styles.css">
 </head>
-<body class="pagina">
-    <header class="encabezado">
-        <img class="imagen-logo" src="assets/logo-header.png" alt="Logo del hotel">
-        <nav>
+<body class="pagina-inicio">
+    <header>
+        <img class="imagen-logo"  src="assets/totoro.png" alt="Logo de empresa">
+        <nav aria-label="Navegación principal">
             <ul>
-                <li><a class="enlace" href="index.html">Inicio</a></li>
-                <li><a class="enlace" href="pages/Reservas.html">Reservas</a></li>
-                <li><a class="enlace" href="pages/tours.html">Tours</a></li>
-                <li><a class="enlace" href="pages/precioscontactos.html">Precios</a></li>
-                <li><a class="enlace" href="pages/Servicios.html">Servicios</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/Reservas.html">Reservas</a></li>
+                <li><a href="pages/tours.html">Tours</a></li>
+                <li><a href="pages/precioscontactos.html">Precios</a></li>
+                <li><a href="pages/Servicios.html">Servicios</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1 class="titulo-principal">Tu Hotel para este verano</h1>
-
-        <section class="seccion">
-            <h2 class="subtitulo">Ve nuestros nuevos tours</h2>
-            <p class="texto"><a class="enlace" href="pages/tours.html">Ver más</a></p>
+        <section class="titulo-principal">
+            <h1>¡Nuestro hotel para criaturas abre su temporada de verano!</h1>
         </section>
+        <div class="contenido-inicio" aria-label="Novedades y promociones">
+            <article>
+                <h2 class="subtitulo">Ve los servicios que ofrecemos</h2>
+                <img class="imagen-inicio" src="assets/interiorhotel.jpeg" alt="Imagen de comida del hotel">
+                <p><a href="pages/Servicios.html">Ver más</a></p>
+            </article>
 
-        <section class="seccion">
-            <h2 class="subtitulo">Descuento para nuevos clientes</h2>
-            <p class="texto"><a class="enlace" href="pages/Reservas.html">Ver más</a></p>
-        </section>
+            <article>
+                <h2 class="subtitulo">Descuento para nuevos clientes</h2>
+                <img class="imagen-inicio" src="assets/entradaciudad.jpeg" alt="Imagen de comida del hotel">
+                <p><a href="pages/Reservas.html">Ver más</a></p>
+            </article>
 
-        <figure>
-            <a class="enlace" href="pages/Servicios.html">
-                <img class="imagen imagen-contenido" src="assets/interior4.webp" alt="Interior del hotel Wololo">
-            </a>
-            <figcaption>Nuestra cafetería renovada</figcaption>
-        </figure>
-
-        <article>
-            <h2 class="subtitulo">¡Nuevo tour!</h2>
-            <img class="imagen imagen-contenido" src="assets/carousel2.jpg" alt="Tour por la ciudad">
-            <p class="texto">Ven a conocer nuestro nuevo tour por la ciudad, con un guía que te contará todo sobre la historia de la ciudad y sus secretos.</p>
-        </article>
+            <article>
+                <h2 class="subtitulo">¡Nuevo tour!</h2>
+                <img class="imagen-inicio" src="assets/fuerasdelhotel.jpeg" alt="Imagen de comida del hotel">
+                <p>Ven a conocer nuestro nuevo tour por la ciudad, con un guía que te contará todo sobre la historia de la ciudad y sus secretos.</p>
+            </article>
+        </div>
     </main>
 
     <footer>
         <ul>
             <li>
-                <a class="enlace" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                    <img class="imagen imagen-social" src="assets/facebook.png" alt="">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <img src="assets/facebook.png" alt="">
                 </a>
             </li>
             <li>
-                <a class="enlace" href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X">
-                    <img class="imagen imagen-social" src="assets/x.png" alt="">
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X">
+                    <img src="assets/x.png" alt="">
                 </a>
             </li>
             <li>
-                <a class="enlace" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                    <img class="imagen imagen-social" src="assets/instagram.png" alt="">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <img src="assets/instagram.png" alt="">
                 </a>
             </li>
         </ul>
-        <p class="texto">Derechos reservados.</p>
-        <iframe title="Mapa del hotel">Mapa</iframe>
+        <p>Derechos reservados.</p>
     </footer>
 </body>
 </html>
